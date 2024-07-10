@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    background-color: cadetblue;
+    border: 2px solid gray;
+    font-size: 30px;
+    margin: 20px;
+    padding: 30px;
+}
