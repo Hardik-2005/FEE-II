@@ -1,0 +1,590 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: rgb(210, 238, 247);
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+.form
+{
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 17px;
+}
+input
+{
+    font-size: 14px;
+}
+.heading
+{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+h3
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.label_name
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.first_name_input
+{
+    display: inline-block;
+    margin-left: 60px;
+}
+.last_name_input
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+input[type=text]
+{
+    width: 300px;
+    height: 20px;
+}
+.label_phone
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.phone_select
+{
+    display: inline-block;
+    margin-left: 5px;
+}
+#phone
+{
+    height: 20px;
+}
+.phone_input
+{
+    display: inline-block;
+    margin-left: 2px;
+}
+input[type="number"]
+{
+    height: 20px;
+    width: 200px;
+}
+.email_label
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+.email_input
+{
+    display: inline-block;
+}
+#email
+{
+    height: 20px;
+    width: 300px;
+}
+.label_DOB
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.input_DOB
+{
+    display: inline-block;
+}
+[type="date"]
+{
+    height: 20px;
+    width: 300px;
+    margin-left: 10px;
+}
+[placeholder]
+{
+    text-align: center;
+}
+.label_gender
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.male
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+.female
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+.others
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+#male
+{
+    margin-right: 10px;
+}
+#female
+{
+    margin-right: 10px;
+}
+#others
+{
+    margin-right: 10px;
+}
+.label_nationality
+{
+    display: inline-block;
+    margin-left: 30px;
+}
+.input_nationality
+{
+    display: inline-block;
+}
+#nationality
+{
+    height: 25px;
+    width: 275px;
+}
+.father_name_label
+{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.father_name_input
+{
+    display: inline-block;
+    margin-left: 16px;
+}
+#father_name
+{
+    width: 250px;
+}
+.father_phone_label
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.father_phone_input
+{
+    display: inline-block;
+    margin-left: 5px;
+}
+#father_phone
+{
+    width: 250px;
+}
+.father_occupation_label
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    
+}
+.father_occupation_input
+{
+    display: inline-block;
+    margin-left: 0px;
+}
+#father_occupation
+{
+    width: 230px;
+}
+
+.mother_name_label
+{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.mother_name_input
+{
+    display: inline-block;
+    margin-left: 18px;
+}
+#mother_name
+{
+    width: 250px;
+}
+.mother_phone_label
+{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+.mother_phone_input
+{
+    display: inline-block;
+    margin-left: 5px;
+}
+#mother_phone
+{
+    width: 250px;
+}
+.mother_occupation_label
+{
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+.mother_occupation_input
+{
+    display: inline-block;
+    margin-left: 0px;
+}
+#mother_occupation
+{
+    width: 230px;
+}
+.parent_email_label
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.parent_email_input
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+#parent_email
+{
+    height: 20px;
+    width: 260px;
+}
+.address_label
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.address_input
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+#address
+{
+    width: 300px;
+}
+.city_label
+{
+    display: inline-block;
+    margin-left: 25px;
+}
+.city_input
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+#city
+{
+    width: 300px;
+}
+.state_label
+{
+    display: inline-block;
+    margin-left: 25px;
+}
+.state_input
+{
+    display: inline-block;
+    margin-left: 35px;
+}
+.country_label
+{
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+.country_input
+{
+    display: inline-block;
+    margin-left: 3px;
+}
+#country
+{
+    height: 25px;
+    width: 300px;
+}
+.class_12_aggregate_label
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.class_12_aggregate_input
+{
+    display: inline-block;
+}
+#class_12_percentage
+{
+    width: 210px;
+    height: 20px;
+}
+.class_12_board_label
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+.class_12_board_input
+{
+    display: inline-block;
+}
+#class_12_board
+{
+    width: 210px;
+    height: 25px;
+}
+.class_12_roll_number_label
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.class_12_roll_number_input
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+#class_12_roll
+{
+    width: 250px;
+    height: 20px;
+}
+.class_12_passing_year_label
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+.class_12_passing_year_input
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+#class_12_passing_year
+{
+    width: 250px;
+    height: 20px;
+}
+.class_12_school_name_label
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+.class_12_school_name_input
+{
+    display: inline-block;
+    margin-left: 7px;
+}
+#class_12_school_name
+{
+    width: 250px;
+    height: 20px;
+}
+.class_12_school_city_label
+{
+    display: inline-block;
+    margin-left: 30px;
+}
+.class_12_school_city_input
+{
+    display: inline-block;
+    margin-left: 45px;
+}
+#class_12_school_city
+{
+    width: 250px;
+    height: 20px;
+}
+.class_10_aggregate_label
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.class_10_aggregate_input
+{
+    display: inline-block;
+}
+#class_10_percentage
+{
+    width: 210px;
+    height: 20px;
+}
+.class_10_board_label
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+.class_10_board_input
+{
+    display: inline-block;
+}
+#class_10_board
+{
+    width: 210px;
+    height: 25px;
+}
+.class_10_roll_number_label
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.class_10_roll_number_input
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+#class_10_roll
+{
+    width: 250px;
+    height: 20px;
+}
+.class_10_passing_year_label
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+.class_10_passing_year_input
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+#class_10_passing_year
+{
+    width: 250px;
+    height: 20px;
+}
+.class_10_school_name_label
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+.class_10_school_name_input
+{
+    display: inline-block;
+    margin-left: 7px;
+}
+#class_10_school_name
+{
+    width: 250px;
+    height: 20px;
+}
+.class_10_school_city_label
+{
+    display: inline-block;
+    margin-left: 30px;
+}
+.class_10_school_city_input
+{
+    display: inline-block;
+    margin-left: 45px;
+}
+#class_10_school_city
+{
+    width: 250px;
+    height: 20px;
+}
+.exam_name_label
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.exam_name_input
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+#exam_name
+{
+    height: 20px;
+    width: 300px;
+}
+.percentile_label
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.percentile_input
+{
+    display: inline-block;
+    margin-left: 53px;
+}
+#percentile
+{
+    height: 20px;
+    width: 300px;
+}
+.application_number_label
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+.application_number_input
+{
+    display: inline-block;
+    margin-left: 48px;
+}
+#application
+{
+    height: 20px;
+    width: 300px;
+}
+.course_name_label
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+.course_name_input
+{
+    display: inline-block;
+}
+#course
+{
+    height: 25px;
+    width: 300px;
+}
+button
+{
+    height: 30px;
+    width: 200px;
+    font-weight: bolder;
+    background-color: #4681f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 320px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}

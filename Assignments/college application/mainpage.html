@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Application Form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="heading"><h1>College Application Form</h1></div>
+
+            <div class="personal_info">
+                <h3>Personal Information:</h3>
+                <!-- NAME -->
+                <div class="label_name"><label for="name">Name:</label></div>
+                <div class="first_name_input"><input type="text" id="name" placeholder="First name" required></div>
+                <div class="last_name_input"><input type="text" id="name" placeholder="Last name" required></div>
+                <!--PHONE NUMBER-->
+                <div class="label_phone"><label for="phone">Phone number:</label></div>
+                <div class="phone_select">
+                    <select name="phone" id="phone">
+                        <option value="India" selected>+91</option>
+                        <option value="USA/Canada" >+1</option>
+                        <option value="UK" >+44</option>
+                        <option value="Australia" >+61</option>
+                    </select>
+                </div>
+                <div class="phone_input"><input type="number" placeholder="Phone number" required></div>
+                <!-- Email -->
+                 <div class="email_label"><label for="email">Email:</label></div>
+                 <div class="email_input"><input type="email" name="email" id="email" placeholder="Email ID" required></div>
+                 <!-- DOB -->
+                  <div class="label_DOB"><label for="DOB">Date of Birth:</label></div>
+                  <div class="input_DOB"><input type="date" name="DOB" id="DOB" placeholder="Date of Birth" required></div>     
+                  <br>           
+                <!-- GENDER -->
+                 <div class="label_gender"><label for="Gender">Gender:</label></div>
+                 <div class="male">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                 </div>
+                 <div class="female">
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                 </div>
+                 <div class="others">
+                    <input type="radio" name="gender" id="others">
+                    <label for="others">Others</label>
+                 </div>
+                 <!-- NATIONALITY -->
+                  <div class="label_nationality"><label for="nationality">Nationality:</label></div>
+                  <div class="input_nationality">
+                    <select name="nationality" id="nationality">
+                        <option value="India" selected>India</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="UK">UK</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                  </div>
+            </div>
+            <hr>
+            <h3>Parent Information:</h3>
+            <div class="parent_info">
+                <div class="father_name_label"><label for="father_name">Father's Name:</label></div>
+                <div class="father_name_input"><input type="text" id="father_name" placeholder="Father's name" required></div>
+
+                <div class="mother_name_label"><label for="mother_name">Mother's Name:</label></div>
+                <div class="mother_name_input"><input type="text" id="mother_name" placeholder="Mother's name"></div>
+                
+                <div class="father_phone_label"><label for="father_phone">Father's Contact:</label></div>
+                <div class="father_phone_input"><input type="text" id="father_phone" placeholder="Father's Contact" required></div>
+
+                <div class="mother_phone_label"><label for="mother_phone">Mother's Contact:</label></div>
+                <div class="mother_phone_input"><input type="text" id="mother_phone" placeholder="Mother's Contact" required></div>
+
+                <div class="father_occupation_label"><label for="father_occupation">Father's Occupation:</label></div>
+                <div class="father_occupation_input"><input type="text" id="father_occupation" placeholder="Father's Occupation" required></div>
+
+                <div class="mother_occupation_label"><label for="mother_occupation">Mother's Occupation:</label></div>
+                <div class="mother_occupation_input"><input type="text" id="mother_occupation" placeholder="Mother's Occupation" required></div>
+
+                
+
+                <div class="parent_email_label"><label for="parent_email">Parent's Email:</label></div>
+                <div class="parent_email_input"><input type="email" name="parent_email" id="parent_email" placeholder="Parent's Email" required></div>
+            </div>
+            <hr>
+            <h3>Residential Information:</h3>
+            <div class="address">
+                <!-- ADDRESS -->
+                <div class="address_label"><label for="address">Address:</label></div>
+                <div class="address_input"><input type="text" id="address" placeholder="Enter Address"></div>
+                <!-- CITY -->
+                <div class="city_label"><label for="city">City:</label></div>
+                <div class="city_input"><input type="text" id="city" placeholder="Enter City"></div>
+                <!-- STATE -->
+                <div class="state_label"><label for="state">State:</label></div>
+                <div class="state_input"><input type="text" id="state" placeholder="Enter State"></div>
+                <!-- COUNTRY -->
+                <div class="country_label"><label for="country">Country:</label></div>
+                <div class="country_input"><select name="country" id="country">
+                    <option value="India" selected>India</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Australia">Australia</option>
+                    <option value="UK">UK</option>
+                </select>
+                </div>
+            </div>
+            <hr>
+            <h3>Class 12 Examinations:</h3>
+            <div class="12th_info">
+                <!-- 12TH PERCENTAGE/CGPA -->
+                <div class="class_12_aggregate_label"><label for="class_12_percentage">Aggregate Percentage/CGPA:</label></div>
+                <div class="class_12_aggregate_input"><input type="text" name="class_12_percentage" id="class_12_percentage" placeholder="12th Aggregate"></div>
+
+                <!-- 12TH BOARD INFO -->
+                <div class="class_12_board_label"><label for="class_12_board">Education Board:</label></div>
+                <div class="class_12_board_input">
+                    <select name="class_12_board" id="class_12_board">
+                        <option value="board" selected disabled>Education Board</option>
+                        <option value="CBSE">Central Board of Secondary Education (CBSE)</option>
+                        <option value="ICSE">Indian Certificate of Secondary Education (ICSE)</option>
+                        <option value="state_board">State Board</option>
+                    </select>
+                </div>
+
+                <!-- 12TH ROLL NUMBER -->
+                <div class="class_12_roll_number_label"><label for="class_12_roll">Roll Number:</label></div>
+                <div class="class_12_roll_number_input"><input type="number" name="class_12_roll" id="class_12_roll" placeholder="Roll Number"></div>
+
+                <!-- 12TH PASSING YEAR -->
+                <div class="class_12_passing_year_label"><label for="class_12_passing_year">Year of Graduating:</label></div>
+                <div class="class_12_passing_year_input"><input type="number" name="class_12_passing_year" id="class_12_passing_year" placeholder="Year of Graduating"></div>
+                </div>
+
+                <!-- 12TH SCHOOL NAME -->
+                <div class="class_12_school_name_label"><label for="class_12_school_name">School Name:</label></div>
+                <div class="class_12_school_name_input"><input type="text" name="class_12_school_name" id="class_12_school_name" placeholder="School Name"></div>
+
+                <!-- 12TH SCHOOL CITY -->
+                <div class="class_12_school_city_label"><label for="class_12_school_city">School City:</label></div>
+                <div class="class_12_school_city_input"><input type="text" name="class_12_school_city" id="class_12_school_city" placeholder="School City"></div>
+            <hr>
+            <h3>Class 10 Examinations:</h3>
+            <div class="10th_info">
+                <!-- 10TH PERCENTAGE -->
+                <div class="class_10_aggregate_label"><label for="class_10_percentage">Aggregate Percentage/CGPA:</label></div>
+                <div class="class_10_aggregate_input"><input type="text" name="class_10_percentage" id="class_10_percentage" placeholder="10th Aggregate"></div>
+                <!-- 10TH BOARD -->
+                <div class="class_10_board_label"><label for="class_10_board">Education Board:</label></div>
+                <div class="class_10_board_input">
+                    <select name="class_10_board" id="class_10_board">
+                        <option value="board" selected disabled>Education Board</option>
+                        <option value="CBSE">Central Board of Secondary Education (CBSE)</option>
+                        <option value="ICSE">Indian Certificate of Secondary Education (ICSE)</option>
+                        <option value="state_board">State Board</option>
+                    </select>
+                </div>
+                <!-- 10TH BOARD ROLL NUMBER -->
+                <div class="class_10_roll_number_label"><label for="class_10_roll">Roll Number:</label></div>
+                <div class="class_10_roll_number_input"><input type="number" name="class_10_roll" id="class_10_roll" placeholder="Roll Number"></div>
+                <!-- 10TH PASSING YEAR -->
+                <div class="class_10_passing_year_label"><label for="class_10_passing_year">Year of Graduating:</label></div>
+                <div class="class_10_passing_year_input"><input type="number" name="class_10_passing_year" id="class_10_passing_year" placeholder="Year of Graduating"></div>
+                <!-- 10TH SCHOOL NAME -->
+                <div class="class_10_school_name_label"><label for="class_10_school_name">School Name:</label></div>
+                <div class="class_10_school_name_input"><input type="text" name="class_10_school_name" id="class_10_school_name" placeholder="School Name"></div>
+                <!-- 10TH SCHOOL CITY -->
+                <div class="class_10_school_city_label"><label for="class_10_school_city">School City:</label></div>
+                <div class="class_10_school_city_input"><input type="text" name="class_10_school_city" id="class_10_school_city" placeholder="School City"></div>
+                
+            </div>
+            <hr>
+            <h3>Entrance Examination Credentials:</h3>
+            <!-- ENTRANCE EXAM NAME -->
+            <div class="entrance_exam">
+                <div class="exam_name_label"><label for="exam_name">Name of Entrance Exam:</label></div>
+                <div class="exam_name_input"><input type="text" name="exam_name" id="exam_name" placeholder="Name of Entrance Exam"></div>
+                <br>
+                <!-- ENTRANCE EXAM PERCENTILE/PERCENTAGE OBTAINED -->
+                <div class="percentile_label"><label for="percentile">Percentile Obtained:</label></div>
+                <div class="percentile_input"><input type="number" name="percentile" id="percentile" placeholder="Percentile Obtained"></div>
+                <br>
+                <!-- APPLICATION NUMBER -->
+                <div class="application_number_label"><label for="application">Application Number:</label></div>
+                <div class="application_number_input"><input type="number" name="application" id="application" placeholder="Application Number"></div>
+            </div>
+            <hr>
+            <h3>Choose a Course:</h3>
+            <div class="course">
+                <div class="course_name_label"><label for="course">Undergraduate Course Name:</label></div>
+                <div class="course_name_input">
+                    <select name="course" id="course">
+                        <option value="Undergraduate_course">Undergraduate Course Name</option>
+                        <option value="BE-CSE">BE-CSE</option>
+                        <option value="BE-CSE-AI">BE-CSE AI</option>
+                        <option value="Mechanical">Mechanical Engineering</option>
+                        <option value="Chemical">Chemical Engineering</option>
+                        <option value="Civil">Civil Engineering</option>
+                        <option value="BCA">BCA</option>
+                        <option value="BBA">BBA</option>
+                        <option value="B.Com">B.Com</option>
+                        <option value="B.Pharm">B.Pharm</option>
+                        <option value="B.Arch">B.Arch</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit">SUBMIT</button>
+        </div>
+    </div>
+</body>
+</html>

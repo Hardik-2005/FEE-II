@@ -18,6 +18,7 @@ body
 {
   float: right;
   margin-right: 10px;
+  margin-top: -6px;
 }
 .form
 {
@@ -41,12 +42,14 @@ input[type=text]
   border: 1px solid #7f9db9;
   height: 22px;
   width: 220px;
+  padding-left: 2px;
 }
 input[type=password]
 {
   border: 1px solid #7f9db9;
   height: 22px;
   width: 220px;
+  padding-left: 2px;
 }
 #session
 {
@@ -96,21 +99,11 @@ input[type=password]
   margin-left: 20px;
   margin-bottom: 10px;
 }
-button
+.submit
 {
-  
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 30px;
-    margin: 5px 25%;
-    background-color: #ed3237;
-    color: white;
-    border: none;
-    font-size: large;
-  
-  
+  margin-left: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 .forgot_pass
 {

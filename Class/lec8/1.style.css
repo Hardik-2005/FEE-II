@@ -1,0 +1,38 @@
+/* Universal Selectors */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ID Selectors */
+#fruits
+{
+    color: red;
+    border: 2px dotted blue;
+}
+/* Class Selectors */
+.a1
+{
+    background-color: yellow;
+    border: 3px ridge red;
+}
+/* Element Selectors */
+p
+{
+    background-color: pink;
+    color: blue;
+}
+/* Attribute Selectors */
+input[type="text"]
+{
+    background-color: orange;
+}
+
+[type="password"]
+{
+    background-color: green;
+}
+
+[placeholder="EMAIL"]
+{
+    background-color: yellow;
+    font-family: fantasy;
+}

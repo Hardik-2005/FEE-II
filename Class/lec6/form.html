@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="main">
+        <div class="form">
+            <form action="">
+                <div class="heading"><h1>Job Application Form</h1></div>
+                <div class="email">
+                    <h3><u>Email</u></h3>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter Email ID" required>
+                    <input type="checkbox" id="email" checked>
+                </div>
+                <hr>
+                <h3><u>Name</u></h3>
+                <div class="name">
+                    <div class="fname">
+                        <div class="lab"><label for="first_name">First Name:</label></div>
+                        <div class="IP"><input type="text" id="first_name" placeholder="Enter First Name"required></div>
+                    </div>
+                    <br>
+                    <div class="lname">
+                        <div class="lab1"><label for="last_name">Last Name:</label></div>
+                        <div class="IP1"><input type="text" id="last_name" placeholder="Enter Last Name"required></div>
+                    </div>
+                    <br>
+                    <div class="father">
+                        <div class="lab2"><label for="father_name">Father's Name:</label></div>
+                        <div class="IP2"><input type="text" id="father_name" placeholder="Enter Father's Name"></div>
+                    </div>
+                </div>
+                <hr>
+                <h3><u>Select Gender</u></h3>
+                <div class="gender">
+                    <p id="gender">Gender:</p>
+                    <div class="male">
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="female">
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <hr>
+                <h3><u>Address</u></h3>
+                <div class="address">
+                    <div class="add_lab"><label for="address">Address:</label></div>
+                    <div class="add_IP"><input type="text" id="address" placeholder="Enter Address"></div>
+                    <br>
+                    <div class="add_lab2"><label for="city">City:</label></div>
+                    <div class="add_IP2"><input type="text" id="city" placeholder="Enter City"></div>
+                    <br>
+                    <div class="add_lab3"><label for="state">State:</label></div>
+                    <div class="add_IP3"><input type="text" id="state" placeholder="Enter State"></div>
+                    <br>
+                    <div class="add_lab4"><label for="country">Country:</label></div>
+                    <div class="add_IP4"><select name="country" id="country">
+                        <option value="India" selected>India</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                    </div>
+                </div>
+                <hr>
+                <h3><u>Phone Number</u></h3>
+                <div class="phone">
+                    <label for="phone">Phone Number:</label>
+                    <select name="phone" id="phone">
+                        <option value="+91" selected>+91</option>
+                        <option value="+02">+02</option>
+                        <option value="+92">+92</option>
+                    </select>
+                    <input type="number" id="phone" placeholder="Enter Phone number">
+                </div>
+                <hr>
+                <h3><u>Resume</u></h3>
+                <div class="resume">
+                    <label for="resume">Resume:</label>
+                    <input type="file" name="resume" id="resume">
+                </div>
+                <hr>
+                <h3><u>Cover Letter</u></h3>
+                <div class="cover_letter">
+                    <label for="cover">Cover Letter: </label>
+                    <br>
+                    <textarea name="cover" id="cover" rows="4" cols="50"></textarea>
+                </div>
+                <hr>
+                <div class="terms">
+                    <input type="checkbox" id="t&c">
+                    <label for="t&c">I hereby declare that I have read all the terms and conditions and agree by them.</label>
+                </div>
+                <button>SUBMIT</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
