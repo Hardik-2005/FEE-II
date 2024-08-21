@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <form action="">
+        <center><h1><u>Job Application Form</u></h1></center>
+        <br>
+        <h3><u>Email</u></h3>
+        &nbsp;
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter Email ID" required>
+        <input type="checkbox" id="email" checked>
+        <br><br><hr>
+        <h3><u>Name</u></h3>
+        &nbsp;
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" placeholder="Enter First Name"required>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" placeholder="Enter Last Name"required>
+        <br><br>&nbsp;
+        <label for="father_name">Father's Name:</label>
+        <input type="text" id="father_name" placeholder="Enter Father's Name">
+        <br><br><hr>
+        <h3><u>Select Gender</u></h3>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Gender:</p>
+        &nbsp;
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <br>
+        &nbsp;
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <hr>
+        <h3><u>Address</u></h3>
+        <label for="address">Address:</label>
+        <input type="text" id="address" placeholder="Enter Address">
+        <label for="city">City:</label>
+        <input type="text" id="city" placeholder="Enter City">
+        <label for="state">State:</label>
+        <input type="text" id="state" placeholder="Enter State">
+        <label for="country:">Country</label>
+        <select name="country" id="country">
+            <option value="India" selected>India</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+        </select>
+        <hr>
+        <h3><u>Phone Number</u></h3>
+        <label for="phone">Phone Number:</label>
+        <select name="phone" id="phone">
+            <option value="+91" selected>+91</option>
+            <option value="+02">+02</option>
+            <option value="+92">+92</option>
+        </select>
+        <input type="number" id="phone" placeholder="Enter Phone number">
+        <hr>
+        <h3><u>Resume</u></h3>
+        <label for="resume">Resume:</label>
+        <input type="file" name="resume" id="resume">
+        <hr>
+        <h3><u>Cover Letter</u></h3>
+        <label for="cover">Cover Letter: </label>
+        <br>
+        <textarea name="cover" id="cover" rows="4" cols="50"></textarea>
+        <hr>
+        <input type="checkbox" id="t&c">
+        <label for="t&c">I agree by the terms and conditions</label>
+        <br><br>
+        <button>SUBMIT</button>
+    </form>
+</body>
+</html>
