@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: #e0d2b9;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* Each column takes equal space */
+    grid-template-rows: repeat(8, 1fr); /* Each row takes equal space */
+    width: 100%;
+    max-width: 600px; /* Max width for desktop */
+    aspect-ratio: 1; /* Ensures the chessboard is always square */
+    border: 2px solid #8b5e3c; /* Darker brown border */
+}
+
+.square {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em; /* Size of the chess pieces */
+}
+
+.white {
+    background-color: #f5deb3; /* Light tan for white squares */
+    color: black;
+}
+
+.black {
+    background-color: #8b5e3c; /* Dark brown for black squares */
+    color: white;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+    .chessboard {
+        max-width: 400px;
+    }
+
+    .square {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 576px) {
+    .chessboard {
+        max-width: 300px;
+    }
+
+    .square {
+        font-size: 1.2em;
+    }
+}
