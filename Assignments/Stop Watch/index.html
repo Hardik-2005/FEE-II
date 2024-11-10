@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch & Pomodoro Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Stopwatch & Pomodoro Clock</h1>
+
+        <!-- Stopwatch Section -->
+        <div class="stopwatch">
+            <h2>Stopwatch</h2>
+            <div id="stopwatch-display" class="display">00:00:00</div>
+            <div class="buttons">
+                <button onclick="startStopwatch()">Start</button>
+                <button onclick="pauseStopwatch()">Pause</button>
+                <button onclick="resetStopwatch()">Reset</button>
+            </div>
+        </div>
+
+        <!-- Pomodoro Clock Section -->
+        <div class="pomodoro">
+            <h2>Pomodoro Clock</h2>
+            <div id="pomodoro-display" class="display">25:00</div>
+            <div class="buttons">
+                <button onclick="startPomodoro()">Start</button>
+                <button onclick="pausePomodoro()">Pause</button>
+                <button onclick="resetPomodoro()">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

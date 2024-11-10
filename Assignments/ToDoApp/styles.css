@@ -1,0 +1,135 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f8fb;
+}
+
+.todo-container {
+    max-width: 400px;
+    width: 100%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.description {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 1em;
+}
+
+.task-form input, .task-form select, .task-form button {
+    width: calc(100% - 16px);
+    padding: 0.8em;
+    margin: 0.3em 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+}
+
+.task-form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Filter Options */
+.filter {
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+.filter button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.filter button:hover {
+    background-color: #0056b3;
+}
+
+/* Task List */
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+}
+
+.task-list li {
+    background: #f9f9f9;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    border-left: 5px solid #007bff;
+    border-radius: 8px;
+    position: relative;
+}
+
+.task-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
+.task-desc, .task-date, .task-priority {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 0.3em;
+}
+
+.task-priority.high {
+    color: #e74c3c;
+}
+
+.task-priority.medium {
+    color: #f1c40f;
+}
+
+.task-priority.low {
+    color: #2ecc71;
+}
+
+/* Delete Button */
+.delete-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+    background: #c0392b;
+}
