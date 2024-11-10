@@ -1,0 +1,79 @@
+/* Basic styling for the Bill Calculator */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+header, footer {
+    text-align: center;
+    margin: 1em 0;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #007bff;
+    margin: 0.5em 0;
+}
+
+header p, footer p {
+    font-size: 1em;
+    color: #666;
+}
+
+.calculator-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    color: #333;
+}
+
+.input-group {
+    margin: 1em 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.3em;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#output {
+    margin-top: 1em;
+    font-size: 1em;
+    color: #333;
+}

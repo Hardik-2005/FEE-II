@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Custom Iterator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="iterator-container">
+        <h1>Custom Item Iterator</h1>
+        <p class="description">Explore the items in the list using the controls below. Jump, reset, or iterate through the items to navigate.</p>
+
+        <!-- Display Area with Counter -->
+        <div id="display-area">Start Iterating!</div>
+        <div id="counter-display">Item 1 of 5</div>
+
+        <!-- Item List Preview -->
+        <div class="list-preview">
+            <h3>Item List Preview</h3>
+            <ul id="item-list">
+                <!-- Item list generated dynamically in JavaScript -->
+            </ul>
+        </div>
+
+        <!-- Control Buttons -->
+        <div class="buttons">
+            <button onclick="iterator.previous()">Previous</button>
+            <button onclick="iterator.reset()">Reset</button>
+            <button onclick="iterator.random()">Random Jump</button>
+            <button onclick="iterator.next()">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

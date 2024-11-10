@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Random Number Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="generator-container">
+        <h1>Advanced Random Number Generator</h1>
+        <p class="description">Generate a random number between your specified range. Set the minimum and maximum values below and click "Generate" to see your result!</p>
+
+        <div class="input-group">
+            <label for="min-value">Minimum Value:</label>
+            <input type="number" id="min-value" placeholder="Enter minimum value" required>
+        </div>
+
+        <div class="input-group">
+            <label for="max-value">Maximum Value:</label>
+            <input type="number" id="max-value" placeholder="Enter maximum value" required>
+        </div>
+
+        <!-- Generate Button -->
+        <button onclick="generateRandomNumber()">Generate Number</button>
+
+        <!-- Output Section -->
+        <div id="output">
+            <p id="random-number"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

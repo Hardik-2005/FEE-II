@@ -1,0 +1,93 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e8f4f8;
+}
+
+.generator-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h1 {
+    color: #007bff;
+    font-size: 1.8em;
+}
+
+.description {
+    color: #555;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+.input-group {
+    margin: 1em 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.3em;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    padding: 0.5em 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#output {
+    margin-top: 1em;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+}
+
+/* History list styling */
+#history {
+    margin-top: 1.5em;
+    font-size: 0.9em;
+    color: #555;
+}
+
+#history-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+#history-list li {
+    padding: 0.3em;
+    background-color: #f1f1f1;
+    margin-top: 0.2em;
+    border-radius: 3px;
+    font-weight: bold;
+}
